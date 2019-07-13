@@ -1,93 +1,32 @@
 
-
-.maincontent .imageparagraph{
-    width: 960px;
-    margin: 0 auto;
-    border-color: #dddddd;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 h1 {
-    color: white;
-    background-color: teal;
-    padding: 10px;
-    float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
 }
 
-ul {
-    display: inline;
-    padding: 10px;
-    list-style-type: none; /* This will remove the bullets*/
-    /* margin: 5px; */
-    /* overflow: hidden; */
-
+h2 {
+  color: teal;
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 10px;
-    text-decoration: none;
-}
-
-a :hover {
-    color: darkblue;
-    font-size: 200%;
-}
-
-.aboutme {
-    clear: both;
-    color: teal;
-    background-color: white;
-    padding: 20px;
-}
-
-.imageparagraph {
-    float: left;
-    margin-right: 5px;
+.img-fluid {
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
 p {
-    line-height: 150%;
-    color: #777777;
+  line-height: 150%;
 }
 
-.footer h2{
-    color: white;
-    width: 100%;
-    position: absolute;
-    bottom: 0; /* This will allow footer text on the bottom */
-    text-align: center;
-    font-size: 10px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    background-color: #666666;
+.photos {
+  /* position: absolute; */
 }
 
-@media  screen and (max-width:980px) {
-    /* For large devices: */
-    .maincontent {
-      width: 80%;
-      padding: 0;
-    }
-  }
-@media  screen and (max-width:768px) {
-    /* For tablets: */
-    .maincontent {
-      width: 80%;
-      padding: 0;
-    }
-  }
-  @media  screen and (max-width:640px) {
-    /* For mobile phones: */
-    .maincontent {
-      width: 100%;
-      padding: 0;
-    }
-  }
+.fixed-bottom {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+}
