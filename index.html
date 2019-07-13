@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio</title>
+    <!-- Bootstrap css link below -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!-- Custom CSS link -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container w-75">
-  <div img class="bg" src="assets/images/papyrus.png">
+  <div class="bg"></div>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <a href="#" class="navbar-brand">Chet Budhathoki</a>
+      <!-- <a href="#" class="navbar-brand">Chet Budhathoki</a> -->
+      <h1>Chet Budhathoki</h1>
+      <!-- Right side links -->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,7 +42,7 @@
     </div>
         <hr>
         <div class="col-sm-12">
-            <img class="float-left clearfix" src="assets/images/Chet-Budhathoki.jpg" alt="Chet Budhathoki" width="200px" height="200px">
+            <img src="assets/images/Chet-Budhathoki.jpg" class="img-fluid float-left clearfix" alt="Chet" width="200px" height="200px">
             <p>Hi Everyone!</p>
             <p>My name is Chet Budhathoki. I was always fascinated with computer and technology ever since I
             started
@@ -58,9 +62,21 @@
     </div>
     </div>
 
-    <div class="container footer">
-        <p class="col-sm-12 text-center">Copyright &copy 2019 by Chet Budhathoki</p>
+    
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+              Copyright &copy 2019 by Chet Budhathoki
+          </div>
+        </div>
       </div>
+        <!-- <a class="navbar-brand" href="#">Fixed bottom</a> -->
+      </nav>
+
+    <!-- <div class="container footer">
+        <p class="col-sm-12 text-center">Copyright &copy 2019 by Chet Budhathoki</p>
+      </div> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
