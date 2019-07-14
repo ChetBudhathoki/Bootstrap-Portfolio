@@ -15,12 +15,35 @@ h2 {
   border-radius: 50%;
 }
 
+#imagecotainer {
+  width: 305px;
+  height: 305px;
+  float: left;
+  margin-bottom: 0px;
+}
+
 p {
   line-height: 150%;
+  margin: 0px;
 }
 
 .photos {
-  /* position: absolute; */
+  position: relative;
+  margin: 5px;
+}
+
+.portfoliotext {
+  position: absolute;
+  color: white;
+  top: 80%;
+  left: px;
+  float: left;
+  clear: both;
+  background-color: teal;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  font-style: oblique;
 }
 
 .fixed-bottom {
