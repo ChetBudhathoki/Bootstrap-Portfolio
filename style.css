@@ -2,7 +2,7 @@
 h1 {
   color: white;
   background-color: teal;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   margin: 10px 10px 10px 0;
 }
 
@@ -16,9 +16,9 @@ h2 {
 }
 
 #imagecotainer {
-  width: 305px;
-  height: 305px;
-  float: left;
+  width: 300px;
+  height: 300px;
+  display: flex;
   margin-bottom: 0px;
 }
 
