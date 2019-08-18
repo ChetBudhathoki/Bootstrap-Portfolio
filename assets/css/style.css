@@ -1,5 +1,5 @@
 
-h1 {
+  h1 {
     color: white;
     background-color: teal;
     padding: 10px 10px 10px 0;
@@ -46,12 +46,12 @@ h1 {
     font-style: oblique;
   }
 
-.imagerow {
-    float:left;
-}
+  .imagerow {
+      float:left;
+  }
   
   .fixed-bottom {
-      clear: both;
+    clear: both;
     background-color: gray;
     color: white;
     padding: 10px;
