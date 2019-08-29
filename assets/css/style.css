@@ -46,6 +46,10 @@
     font-style: oblique;
   }
 
+  .message {
+    height: 25%;
+  }
+
   .imagerow {
       float:left;
   }
