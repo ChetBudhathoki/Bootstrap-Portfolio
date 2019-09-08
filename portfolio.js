@@ -8,9 +8,14 @@
       //input validation start
       var name = $('.name').val()
       var email = $('.email').val()
-      var message = $('.message').val()
+      var message = $('.textarea').val()
       var statusElm = $('.status')
       statusElm.empty()
+
+            // clear the form values after values have been stored
+      $("#name").val("");
+      $("#email").val("");
+      $("#textarea").val("");
 
       if(name.length >2) {
         statusElm.append('<div>Name is valid</div>')
@@ -26,7 +31,7 @@
         statusElm.append('<div>Email is NOT valid</div>')
       }
 
-      if(message.length >=10) {
+      if(textarea.length >=10) {
         statusElm.append('<div>Message is valid </div>')
       } else {
         event.preventDefault()
