@@ -4,10 +4,18 @@
     background-color: teal;
     padding: 10px 10px 10px 0;
     margin: 10px 10px 10px 0;
+    font-family: cursive;
   }
-  
+
   h2 {
     color: teal;
+    text-align: center;
+  }
+  
+  h3 {
+    color: teal;
+    text-align: center;
+    font-family: sans-serif;
   }
   
   .img-fluid {
@@ -32,6 +40,10 @@
     margin: 5px;
   }
   
+  #portfolioCollection {
+    justify-content: space-evenly;
+  }
+
   .portfoliotext {
     position: absolute;
     color: white;
