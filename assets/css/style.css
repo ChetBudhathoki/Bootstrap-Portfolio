@@ -66,11 +66,12 @@
       float:left;
   }
   
+
   .fixed-bottom {
     clear: both;
     background-color: gray;
     color: white;
     padding: 10px;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 12px;
   }
